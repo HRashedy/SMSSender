@@ -1,62 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SendSMS.Model;
+﻿using Microsoft.AspNetCore.Mvc;
+using SMSSendAPI.Data.Interfaces;
+using SMSSendAPI.Data.Model;
+using SMSSendAPI.Data.Repository;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 using Twilio.Types;
 
-namespace SendSMS.Controllers
+namespace SMSSendAPI.Controllers
 {
     [Produces("application/json")]
     [Route("api/[controller]")]
     public class SMSController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ISMSRepository _SMSRepository;
 
-        public SMSController(ApplicationDbContext context)
+        public SMSController(ISMSRepository SMSRepository)
         {
-            _context = context;
-        }
-        // GET: api/Categories
-        [HttpGet]
-        public IEnumerable<SMS> GetSMSs()
-        {
-            return _context.SMSs;
+            _SMSRepository = SMSRepository;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetSMSs([FromRoute] int id)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var smsVal = await _context.SMSs.SingleOrDefaultAsync(m => m.Id == id);
-
-            if (smsVal == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(smsVal);
-        }
-
-        // POST api/values
+         
+        // POST api/
         [HttpPost]
-        public async Task<IActionResult> PostSMSs([FromBody]SMS sms)
+        public string PostSMSs([FromBody]SMS sms)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return BadRequest(ModelState);
-            }
-            _context.SMSs.Add(sms);
-            await _context.SaveChangesAsync();
-
+                _SMSRepository.SendSMS(sms);
 
             // Find your Account Sid and Auth Token at twilio.com/console
             const string accountSid = "AC0ebfc71733b1476cd56ccb057082d685";
@@ -68,9 +38,13 @@ namespace SendSMS.Controllers
                 to,
                 from: new PhoneNumber("+19387777010"),
                 body: sms.Text);
-           
-            return CreatedAtAction("GetSMSs", new { id = sms.Id }, sms);
-           // return  message.AccountSid;
+
+            return "Sent";
+            }
+            return "Not sent!!";
+            // return  message.AccountSid;
         }
+
+
     }
 }

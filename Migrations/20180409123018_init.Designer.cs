@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using SendSMS.Model;
+using SMSSendAPI.Data;
 using System;
 
-namespace SendSMS.Migrations
+namespace SMSSendAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180409100614_CreateTable")]
-    partial class CreateTable
+    [Migration("20180409123018_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace SendSMS.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SendSMS.Model.SMS", b =>
+            modelBuilder.Entity("SMSSendAPI.Data.Model.SMS", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();

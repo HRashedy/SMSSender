@@ -1,0 +1,11 @@
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.csprojResolveAssemblyReference.cache
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.csproj.CoreCompileInputs.cache
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.AssemblyInfoInputs.cache
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.AssemblyInfo.cs
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\bin\Debug\netcoreapp2.0\SMSSendAPI.deps.json
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\bin\Debug\netcoreapp2.0\SMSSendAPI.runtimeconfig.json
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\bin\Debug\netcoreapp2.0\SMSSendAPI.runtimeconfig.dev.json
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\bin\Debug\netcoreapp2.0\SMSSendAPI.dll
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\bin\Debug\netcoreapp2.0\SMSSendAPI.pdb
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.dll
+c:\users\hrashedy\source\repos\SMSSendAPI\SMSSendAPI\obj\Debug\netcoreapp2.0\SMSSendAPI.pdb

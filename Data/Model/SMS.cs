@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SendSMS.Model
+namespace SMSSendAPI.Data.Model
 {
     public class SMS
     {

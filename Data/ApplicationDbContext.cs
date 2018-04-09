@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SMSSendAPI.Data.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SendSMS.Model
+namespace SMSSendAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {

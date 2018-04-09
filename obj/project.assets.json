@@ -13163,11 +13163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HRashedy\\source\\repos\\SendSMS\\SendSMS\\SendSMS.csproj",
-      "projectName": "SendSMS",
-      "projectPath": "C:\\Users\\HRashedy\\source\\repos\\SendSMS\\SendSMS\\SendSMS.csproj",
+      "projectUniqueName": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\SMSSendAPI.csproj",
+      "projectName": "SMSSendAPI",
+      "projectPath": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\SMSSendAPI.csproj",
       "packagesPath": "C:\\Users\\HRashedy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HRashedy\\source\\repos\\SendSMS\\SendSMS\\obj\\",
+      "outputPath": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
