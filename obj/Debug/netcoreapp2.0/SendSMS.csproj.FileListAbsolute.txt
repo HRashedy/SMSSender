@@ -1,0 +1,11 @@
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\bin\Debug\netcoreapp2.0\SendSMS.deps.json
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\bin\Debug\netcoreapp2.0\SendSMS.runtimeconfig.json
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\bin\Debug\netcoreapp2.0\SendSMS.runtimeconfig.dev.json
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\bin\Debug\netcoreapp2.0\SendSMS.dll
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.csprojResolveAssemblyReference.cache
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.csproj.CoreCompileInputs.cache
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.AssemblyInfoInputs.cache
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.AssemblyInfo.cs
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\bin\Debug\netcoreapp2.0\SendSMS.pdb
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.dll
+C:\Users\HRashedy\source\repos\SendSMS\SendSMS\obj\Debug\netcoreapp2.0\SendSMS.pdb
