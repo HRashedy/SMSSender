@@ -21,7 +21,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "SMSSendAPI/1.0.0": {
+      "SMSAPI.Tree/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
           "Microsoft.NETCore.App": "2.0.0",
@@ -29,10 +29,10 @@
           "Twilio": "5.10.0"
         },
         "runtime": {
-          "SMSSendAPI.dll": {}
+          "SMSAPI.Tree.dll": {}
         },
         "compile": {
-          "SMSSendAPI.dll": {}
+          "SMSAPI.Tree.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4249,7 +4249,7 @@
     }
   },
   "libraries": {
-    "SMSSendAPI/1.0.0": {
+    "SMSAPI.Tree/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

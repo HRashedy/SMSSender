@@ -3,16 +3,15 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using SMSSendAPI.Data;
+using SMSAPI.Tree.Context;
 using System;
 
-namespace SMSSendAPI.Migrations
+namespace SMSAPI.Tree.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180409123018_init")]
-    partial class init
+    [DbContext(typeof(AppDbContext))]
+    [Migration("20180410163719_update")]
+    partial class update
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,13 +20,18 @@ namespace SMSSendAPI.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SMSSendAPI.Data.Model.SMS", b =>
+            modelBuilder.Entity("SMSAPI.Tree.Entities.SMSs", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("CreatedUtc")
-                        .ValueGeneratedOnAddOrUpdate();
+                    b.Property<DateTime>("Created");
+
+                    b.Property<string>("CreatedBy");
+
+                    b.Property<DateTime>("Modified");
+
+                    b.Property<string>("ModifiedBy");
 
                     b.Property<string>("Number")
                         .IsRequired()

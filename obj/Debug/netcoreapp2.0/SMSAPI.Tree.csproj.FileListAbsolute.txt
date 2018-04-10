@@ -1,0 +1,11 @@
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\bin\Debug\netcoreapp2.0\SMSAPI.Tree.deps.json
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\bin\Debug\netcoreapp2.0\SMSAPI.Tree.runtimeconfig.json
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\bin\Debug\netcoreapp2.0\SMSAPI.Tree.runtimeconfig.dev.json
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\bin\Debug\netcoreapp2.0\SMSAPI.Tree.dll
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.csprojResolveAssemblyReference.cache
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.csproj.CoreCompileInputs.cache
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.AssemblyInfoInputs.cache
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.AssemblyInfo.cs
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\bin\Debug\netcoreapp2.0\SMSAPI.Tree.pdb
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.dll
+c:\users\hrashedy\source\repos\SMSAPI.Tree\SMSAPI.Tree\obj\Debug\netcoreapp2.0\SMSAPI.Tree.pdb

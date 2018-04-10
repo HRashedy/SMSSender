@@ -13163,11 +13163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\SMSSendAPI.csproj",
-      "projectName": "SMSSendAPI",
-      "projectPath": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\SMSSendAPI.csproj",
+      "projectUniqueName": "c:\\users\\hrashedy\\source\\repos\\SMSAPI.Tree\\SMSAPI.Tree\\SMSAPI.Tree.csproj",
+      "projectName": "SMSAPI.Tree",
+      "projectPath": "c:\\users\\hrashedy\\source\\repos\\SMSAPI.Tree\\SMSAPI.Tree\\SMSAPI.Tree.csproj",
       "packagesPath": "C:\\Users\\HRashedy\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\hrashedy\\source\\repos\\SMSSendAPI\\SMSSendAPI\\obj\\",
+      "outputPath": "c:\\users\\hrashedy\\source\\repos\\SMSAPI.Tree\\SMSAPI.Tree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

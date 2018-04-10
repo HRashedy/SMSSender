@@ -1,11 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
 
-namespace SMSSendAPI.Migrations
+namespace SMSAPI.Tree.Migrations
 {
-    public partial class init : Migration
+    public partial class update : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,9 +12,11 @@ namespace SMSSendAPI.Migrations
                 name: "SMSs",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    CreatedUtc = table.Column<DateTime>(nullable: false),
+                    Id = table.Column<string>(nullable: false),
+                    Created = table.Column<DateTime>(nullable: false),
+                    CreatedBy = table.Column<string>(nullable: true),
+                    Modified = table.Column<DateTime>(nullable: false),
+                    ModifiedBy = table.Column<string>(nullable: true),
                     Number = table.Column<string>(maxLength: 25, nullable: false),
                     Text = table.Column<string>(maxLength: 1000, nullable: false)
                 },

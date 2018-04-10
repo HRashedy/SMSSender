@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SMSSendAPI.Data.Model
+namespace SMSAPI.Tree.Entities
 {
-    public class SMS
+    public class SMSs : AuditEntity
     {
-        public int Id { get; set; }
+        // public int Id { get; set; }
+        public SMSs() : base() { }
+       
+        #region Properties
         [Required]
         [StringLength(25)]
         public string Number { get; set; }
         [Required]
         [StringLength(1000)]
         public string Text { get; set; }
-        [Required, DatabaseGenerated(DatabaseGeneratedOption.Computed)]
-        public DateTime CreatedUtc { get; set; }
+        #endregion
     }
 }
