@@ -14,12 +14,9 @@ namespace SMSAPI.Tree.Repositories.SMS
 {
     public class SMSsRepository : GenericRepository<SMSs>, ISMSsRepository
     {
-        private readonly AppDbContext _appDbContext;
-        public SMSsRepository(AppDbContext appDbContext, DbContext context) : base(context)
-        {
-            _appDbContext = appDbContext;
 
-        }
+        public SMSsRepository(DbContext context) : base(context) { }
+      
         public int Create(SMSs SMSs)
         {
             this._dbset.Add(SMSs);
