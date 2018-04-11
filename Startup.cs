@@ -23,7 +23,9 @@ namespace SMSAPI.Tree
             //Server configuration
             services.AddDbContext<AppDbContext>(options =>
                          options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-           // var TwilioInfo = Configuration.GetSection("TwilioInfo");
+
+            // var TwilioInfo = Configuration.GetSection("TwilioInfo");
+            services.AddScoped<DbContext, AppDbContext>();
             services.AddTransient<ISMSsRepository, SMSsRepository>();
             services.AddMvc();
         }
