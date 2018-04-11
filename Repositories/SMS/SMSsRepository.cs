@@ -1,14 +1,13 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SMSAPI.Tree.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using SMSAPI.Tree.Context;
-using SMSAPI.Tree.Entities;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
 using Twilio.Types;
+
 
 namespace SMSAPI.Tree.Repositories.SMS
 {
@@ -17,21 +16,24 @@ namespace SMSAPI.Tree.Repositories.SMS
 
         public SMSsRepository(DbContext context) : base(context) { }
       
-        public int Create(SMSs SMSs)
+        public string Create(SMSs SMSs)
         {
             this._dbset.Add(SMSs);
-            return this._entities.SaveChanges();
+            this._entities.SaveChanges();
+            return SMSs.Id; 
         }
-
-        public IActionResult FirstOrDefault(Func<object, bool> p)
-        {
-            throw new NotImplementedException();
-        }
-
         public override IEnumerable<SMSs> Get()
         {
-            return this._dbset.Include(x => x.Id);
+            return this._dbset.ToList();
         }
+
+
+        //public IActionResult FirstOrDefault(Func<object, bool> p)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+
 
         public override SMSs Get(string id)
         {
@@ -54,5 +56,6 @@ namespace SMSAPI.Tree.Repositories.SMS
             return "Sent";
       
         }
+
     }
 }

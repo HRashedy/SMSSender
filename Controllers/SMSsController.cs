@@ -8,6 +8,7 @@ using SMSAPI.Tree.DTO.SMS;
 using SMSAPI.Tree.Entities;
 using SMSAPI.Tree.Repositories.SMS;
 
+
 namespace SMSAPI.Tree.Controllers
 {
     [Produces("application/json")]
@@ -22,10 +23,35 @@ namespace SMSAPI.Tree.Controllers
         }
 
         #region APIs
+
         [HttpGet]
-        public SMSs Get(string smsId)
+        public IActionResult GetSMSs()
         {
-            return this._SMSRepository.Get(smsId);
+            var smss = _SMSRepository.Get();
+            if (smss == null)
+            {
+                return NotFound();
+
+            }
+            return Ok(smss);
+
+        }
+
+
+
+
+        [HttpGet("{id?}")]
+        public IActionResult GetSMS([FromRoute] string Id)
+        {
+           // return Ok(this._SMSRepository.Get(Id));
+            var smss = this._SMSRepository.Get(Id);
+                if (smss == null)
+                {
+                return NotFound();
+                }
+            return Ok(smss);
+            
+
         }
 
         [HttpPost]
@@ -34,11 +60,12 @@ namespace SMSAPI.Tree.Controllers
         {
             if (ModelState.IsValid)
             {
-                this._SMSRepository.Create( smssInput);
                 this._SMSRepository.SendSMS(smssInput);
+                this._SMSRepository.Create(smssInput);
+                return CreatedAtAction("Get", new { id = smssInput.Id }, smssInput);
             }
 
-            return RedirectToAction(nameof(Get), "SMSs", null);
+            return BadRequest(ModelState);
         }
         #endregion
     }

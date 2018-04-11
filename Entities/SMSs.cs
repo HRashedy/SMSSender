@@ -13,10 +13,10 @@ namespace SMSAPI.Tree.Entities
        
         #region Properties
         [Required]
-        [StringLength(25)]
+        [StringLength(25, MinimumLength = 10)] 
         public string Number { get; set; }
         [Required]
-        [StringLength(1000)]
+        [StringLength(1000, MinimumLength = 3)]
         public string Text { get; set; }
         #endregion
     }

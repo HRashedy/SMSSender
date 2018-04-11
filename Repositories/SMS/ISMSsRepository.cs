@@ -9,11 +9,11 @@ namespace SMSAPI.Tree.Repositories.SMS
 {
     public interface ISMSsRepository : IGenericRepository<SMSs>
     {
-        new int Create(SMSs SMSs);
+        string Create(SMSs SMSs);
         new IEnumerable<SMSs> Get();
         new SMSs Get(string id);
         string SendSMS(SMSs SMSVal);
-        IActionResult FirstOrDefault(Func<object, bool> p);
+        //IActionResult FirstOrDefault(Func<object, bool> p);
 
     }
 }
