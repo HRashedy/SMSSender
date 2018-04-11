@@ -62,7 +62,7 @@ namespace SMSAPI.Tree.Controllers
             {
                 this._SMSRepository.SendSMS(smssInput);
                 this._SMSRepository.Create(smssInput);
-                return CreatedAtAction("Get", new { id = smssInput.Id }, smssInput);
+                return CreatedAtAction("GetSMS", new { id = smssInput.Id }, smssInput);
             }
 
             return BadRequest(ModelState);
