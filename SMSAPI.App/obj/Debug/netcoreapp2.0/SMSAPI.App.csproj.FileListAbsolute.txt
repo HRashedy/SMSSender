@@ -1,0 +1,12 @@
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\bin\Debug\netcoreapp2.0\SMSAPI.App.deps.json
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\bin\Debug\netcoreapp2.0\SMSAPI.App.dll
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\bin\Debug\netcoreapp2.0\SMSAPI.App.pdb
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\bin\Debug\netcoreapp2.0\SMSAPI.Data.dll
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\bin\Debug\netcoreapp2.0\SMSAPI.Data.pdb
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.csprojResolveAssemblyReference.cache
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.csproj.CoreCompileInputs.cache
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.AssemblyInfoInputs.cache
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.AssemblyInfo.cs
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.csproj.CopyComplete
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.dll
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.App\obj\Debug\netcoreapp2.0\SMSAPI.App.pdb

@@ -1,0 +1,8 @@
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\bin\Debug\netcoreapp2.0\SMSAPI.Data.deps.json
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\bin\Debug\netcoreapp2.0\SMSAPI.Data.dll
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\bin\Debug\netcoreapp2.0\SMSAPI.Data.pdb
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\obj\Debug\netcoreapp2.0\SMSAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\obj\Debug\netcoreapp2.0\SMSAPI.Data.AssemblyInfoInputs.cache
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\obj\Debug\netcoreapp2.0\SMSAPI.Data.AssemblyInfo.cs
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\obj\Debug\netcoreapp2.0\SMSAPI.Data.dll
+C:\Users\HRashedy\source\repos\SMSAPI.Tree\SMSAPI.Data\obj\Debug\netcoreapp2.0\SMSAPI.Data.pdb
